@@ -2006,4 +2006,8 @@ Data → Preprocessing → Transformer Models → Arabic Handling
 
 Build it one checkpoint at a time. Measure everything that matters. Keep the evidence. 🚀
 
+Labs Summary
+
+Throughout the Bayan labs, we developed and evaluated a bilingual Arabic-English NLP system. We started with text preprocessing, PII masking, sentence segmentation, and tokenizer evaluation, selecting XLM-R as the most balanced tokenizer. We then explored attention mechanisms and masking, trained and evaluated topic classification and NER models, and compared Arabic models for Gulf and MSA text. We built a semantic retrieval system using FAISS with reranking and no-answer handling. We also implemented a comprehensive evaluation pipeline with confidence intervals, slice analysis, behavioural testing, and manual error analysis. Finally, we optimized the classifier and NER models using ONNX and INT8 quantization and integrated the optimized classifier into a FastAPI service for deployment and latency testing.
+
 The URL: https://github.com/SDAIAAcademy
